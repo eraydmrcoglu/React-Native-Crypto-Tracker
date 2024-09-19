@@ -181,12 +181,12 @@ export default function App() {
 
   useEffect(() => {
     const firebaseConfig = {
-      apiKey: "AIzaSyAzO6F4gcWyEatj5QSqNX4H3qvrikyAhuE",
-      authDomain: "crypto-app-expo.firebaseapp.com",
-      projectId: "crypto-app-expo",
-      storageBucket: "crypto-app-expo.appspot.com",
-      messagingSenderId: "1025352300151",
-      appId: "1:1025352300151:web:4197bbea21e7cb8eb17872",
+      apiKey: "",
+      authDomain: "",
+      projectId: "",
+      storageBucket: "",
+      messagingSenderId: "",
+      appId: "",
     };
     initializeApp(firebaseConfig);
 
